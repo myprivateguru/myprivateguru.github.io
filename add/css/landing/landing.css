@@ -18,6 +18,9 @@ section#landing {
 .grey {
 	background:#F7F7F7;
 }
+.green {
+	background:#26e255;
+}
 .cta {
 	background:url('../../img/landing/landing-bg.png');
 	background-size: cover;
