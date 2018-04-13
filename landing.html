@@ -8,7 +8,11 @@
 	<meta name="keywords" content="keywords">
 	<meta name="author" content="Audain Designs">
 	<title>MyPrivateGuru - Teach Online
+	
 Grow Your Business</title>
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="floating-wpp.min.css">
+    <script type="text/javascript" src="floating-wpp.min.js"></script>
 
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -49,6 +53,21 @@ Grow Your Business</title>
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 </head>
+<script type="text/javascript">
+    $(function () {
+        $('.floating-wpp').floatingWhatsApp({
+            phone: '+9561402263',
+            popupMessage: 'Hello, how can we help??',
+            showPopup: true,
+            //position: 'right',
+            //autoOpen: false,
+            //autoOpenTimer: 4000,
+            message: 'I am Interested in your Product.',
+            //headerColor: 'orange',
+            headerTitle: 'Send Enquiry on Whatsapp!',
+        });
+    });
+</script>
 <body>
 	<nav id="MyPrivateGuruNav" class="navmenu menu-side navmenu-default navmenu-fixed-left offcanvas" role="navigation">
 		<ul class="list-unstyled push-menu-items pm-title text-center">
@@ -796,7 +815,7 @@ View your course grades.</span>
 </div>
 
 <!-- jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
 
 <!-- Compiled JS/Scripts -->
 <script src="js/bootstrap.min.js"></script>
@@ -830,5 +849,6 @@ View your course grades.</span>
 	
 	</script>
  -->
+ <div class="floating-wpp"></div>
 </body>
 </html>
