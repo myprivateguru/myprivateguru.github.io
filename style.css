@@ -910,6 +910,11 @@ a.btn-enter:hover, .btn-enter:focus {
 	width:200px;
 	height:60px;
 }
+.inst-btn {
+	background:url('img/stores/inst.png');
+	width:200px;
+	height:60px;
+}
 .google-btn {
 	background:url('img/stores/btn-google-play.png');
 	width:200px;
