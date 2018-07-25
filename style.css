@@ -915,6 +915,12 @@ a.btn-enter:hover, .btn-enter:focus {
 	width:200px;
 	height:60px;
 }
+.main-w3ls-logo {
+	float: left;
+    line-height: 5px;
+    position: relative;
+    z-index: 999;
+}
 .google-btn {
 	background:url('img/stores/btn-google-play.png');
 	width:200px;
